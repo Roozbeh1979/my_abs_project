@@ -2,7 +2,8 @@ import math
 import numbers
 
 def my_abs(x):
-    if isinstance(x, numbers.Real):
+    try:
+        
         if x < 0:
             return -x
         else:
